@@ -7,7 +7,7 @@ tsc --init
 ```
 change dirctory file if you want
 
-rootDir: ./src
+rootDir: ./src__
 outDir: ./output
 
 for watch mood
