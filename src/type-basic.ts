@@ -27,3 +27,18 @@ person = {
     name: 'John',
     age: 20
 }
+
+// dynamic type or any type
+
+let a: any;
+a = 20;
+a = 'twenty';
+
+// array
+let b : any[] = [];
+b.push(1);
+b.push('two');
+
+// object
+let c: {name: any, age: any};
+c = {name: 'John', age: 20};
