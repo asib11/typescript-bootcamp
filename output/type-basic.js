@@ -17,3 +17,14 @@ person = {
     name: 'John',
     age: 20
 };
+// dynamic type or any type
+let a;
+a = 20;
+a = 'twenty';
+// array
+let b = [];
+b.push(1);
+b.push('two');
+// object
+let c;
+c = { name: 'John', age: 20 };
