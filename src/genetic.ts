@@ -14,15 +14,17 @@ let user = addID({
 
 // interface generic
 
+enum RType { GOOD, VERYGOOD, EXCELLENT } // enum defined
+
 interface APIResponse<T> { // T is a generic type here
     status: number;
-    type: string;
+    type: RType; // RType is a enum type here
     data: T; // T is a generic type here
 }
 
 const response1: APIResponse<object> = { // object is a generic type here
     status: 200,
-    type: 'good',
+    type: RType.GOOD, // RType enum type
     data: {
         name: 'John',
         age: 20

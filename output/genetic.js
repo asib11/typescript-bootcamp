@@ -8,9 +8,16 @@ let user = addID({
     age: 20,
     country: 'Bangladesh'
 });
+// interface generic
+var RType;
+(function (RType) {
+    RType[RType["GOOD"] = 0] = "GOOD";
+    RType[RType["VERYGOOD"] = 1] = "VERYGOOD";
+    RType[RType["EXCELLENT"] = 2] = "EXCELLENT";
+})(RType || (RType = {})); // enum defined
 const response1 = {
     status: 200,
-    type: 'good',
+    type: RType.GOOD, // RType enum type
     data: {
         name: 'John',
         age: 20
