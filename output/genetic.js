@@ -23,3 +23,5 @@ const response1 = {
         age: 20
     }
 };
+// tuple
+let aTuple = ['John', 20]; // a tuple type variable

@@ -30,3 +30,7 @@ const response1: APIResponse<object> = { // object is a generic type here
         age: 20
     }
 }
+
+// tuple
+
+let aTuple: [string, number] = ['John', 20]; // a tuple type variable
