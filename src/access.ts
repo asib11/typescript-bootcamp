@@ -1,4 +1,4 @@
-import {Cars2} from './player.js';
+import {Cars2} from './cars';
 
 const car11 = new Cars2('BMW', 'Black');
 const car21 = new Cars2('Audi', 'White');
